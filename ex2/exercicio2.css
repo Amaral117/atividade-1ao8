@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(paisagem-montanhosa-com-nevoeiro.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-y: hidden;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 90px;
+    background-color: rgba(0, 0, 0, 0.192);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 120px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e3e2e2;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #6cceef;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #42c8f5;
+  }
+  
+  p {
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,98 @@
+body{
+    background-image: url(pedaco-muito-grande-e-bonito-de-gelo-ao-nascer-do-sol-no-inverno.jpg);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+.container{
+    display: grid;
+    width: 900px;
+    height: 400px;
+    grid-template-columns: repeat(2,1fr);
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.box-container{
+    background-color: rgba(255, 255, 255, 0.3);
+    border: #00000058 2px solid;
+    border-bottom-left-radius: 5px;
+}
+.title{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.temp_calculator_inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+.calculator_value{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    width: 330px;
+    border-radius: 2px;
+    background: #0000005b;
+    border: none;
+}
+
+.calculator_value legend{
+    font-size: 1.3rem;
+    padding: 6px;
+    color: #ffffff;
+    background-color: #3a3a3a;
+    border-radius: 6px;
+}
+
+.calculator_value select{
+    font-size: 1rem;
+    color: #232529;
+    text-align: right;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+}
+button{
+    margin: 15px;
+    width: 110px;
+    height: 30px;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    border-color: #6a6a6a41;
+    background-color: #5250506a;
+    font-weight: bolder;
+    border: transparent;
+    cursor: pointer;
+}
+
+.result-area{
+    background-color: rgba(1, 91, 124, 0.409);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#result{
+    font-size: 2rem;
+    color: #2d2d2d;
+}

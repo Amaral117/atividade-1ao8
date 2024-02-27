@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(galaxy-visao-noturna.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(120, 120, 120, 0.39);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  textarea {
+    width: 80%;
+    height: 150px;
+    margin-bottom: 10px;
+    background-image: url(ishowspeed-gif-file-5394kb-atg9x13lqg19m5w9.gif);
+    background-size: cover;
+    color: #000000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #006bb3;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+  }
+  
+  button:hover {
+    background-color: #01066b;
+  }
+  
